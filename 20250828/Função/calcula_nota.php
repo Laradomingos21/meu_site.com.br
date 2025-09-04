@@ -11,5 +11,6 @@
             echo "$nome, você ficou de <strong style='color: orange'>recuperação!</strong> em $materia";
         } else if ($avaliacao >=0 && $avaliacao <5) {
             echo "$nome você foi <strong style='color: red'> reprovado!</strong> em $materia";
-        }
+        }    
 ?>
+    <img src='https://png.pngtree.com/png-vector/20240309/ourlarge/pngtree-cute-watercolour-safari-giraffe-animals-kid-back-to-school-reading-book-png-image_11917474.png' alt='Girafa estudando' width='200' heigth='200'>
