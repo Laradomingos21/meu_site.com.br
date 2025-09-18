@@ -1,0 +1,16 @@
+{
+    "professores": [
+        {
+            "nome": "Ana Pereira",
+            "email": "lara.domingos2@portalsesisp.org.br",
+            "disciplina": ""
+        }
+    ],
+    "alunos": [
+        {
+            "nome": "Ana Pereira",
+            "email": "ana@aluno.com",
+            "matricula": "2025A002"
+        }
+    ]
+}
