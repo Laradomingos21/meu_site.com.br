@@ -1,5 +1,5 @@
 <h1>Calculadora de média</h1>
-<form action="calcula_nota.php" method="post">
+<form action="calculamedia.php" method="post">
     <b>Nome do aluno: </b><br>
     <input type="text" name="nome" required><br>
     <b>Quantas notas são? <br></b>
