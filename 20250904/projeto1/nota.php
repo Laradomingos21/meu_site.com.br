@@ -1,12 +1,12 @@
 <h1>Calculadora de média</h1>
-<form action="calculamedia.php" method="post">
-    <b>Nome do aluno: </b><br>
+<form action="calcula_nota.php" method="post">
+    Nome do aluno:<br>
     <input type="text" name="nome" required><br>
-    <b>Quantas notas são? <br></b>
+    Quantas notas são? <br>
     <input type="text" name="nnotas" required><br>
-    <b>Qual é a soma das notas? <br></b>
+    Qual é a soma das notas? <br>
     <input type="text" name="snotas" required><br>
-    <b>Qual é a disciplina? <br></b>
+    Qual é a disciplina? <br>
     <input type="text" name="materia" required><br><br>
     <input type="submit" value="entrar"><br>
 </form>
