@@ -1,6 +1,6 @@
 <?php
-
+$i = $_POST
 for($i = 1; $i <= 10; $i++){
-    echo "Número: $i<br>";
+    echo "numero: $i<br>";
 }    
 ?>
