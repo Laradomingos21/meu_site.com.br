@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,7 @@
 </head>
 <body>
     <form action="" method="get">
-        <h1>10primeiros numeros da sequencia de fibonacci</h1>
+        <h1>10 primeiros numeros da sequencia de fibonacci</h1>
     </form>
 </body>
 </html>

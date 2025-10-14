@@ -19,12 +19,21 @@
     <button type='submit'>bhaskara</button>
 </body>
 </html>
+
 <?php
     $valora = $_POST['valora'];
     $valorb = $_POST['valorb'];
     $valorc = $_POST['valorc'];
-    $delta = ($valorb^2)+4*$valora*valorc;
-    $raiz1 = (($valorb*-1)-$delta)/2*$valora;
-    $raiz2 = (($valorb*-1)-$delta)/2*$valora;
-    echo "as raízes são $raiz1 e $raiz2";
+    $delta = ($valorb*$valorb)-4*$valora*$valorc;
+    if ($delta < 0) {
+        echo "não existem raízes reais";
+    } elseif ($delta == 0) {
+        $x = -$valorb / (2*$valora);
+        echo "raiz única: $x";
+    } else {
+        $raiz1 = (-$valorb + sqrt($delta))/ (2*$valora);
+        $raiz2 = (-$valorb - sqrt($delta))/ (2*$valora);
+        echo "as raízes são $raiz1 e $raiz2";
+    }
+  
 ?>
