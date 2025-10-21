@@ -8,9 +8,10 @@
 <body>
     <h2>Sorteio</h2>
     <form action="resultado.php" method="post">
-        <p>Digite o nome do ganhador
+        <p>Digite o nome do ganhador</p>
+        <input type = "text" name="nome"><br>
         <p>O que você quer ganhar?</p>
-        <input type = "text" name="ganhar"><br><br>
+        <input type = "text" name="ganhar"><br>
         <p>Digite o número da sua rifa:</p>
         <input type ="text" name= "premio"><br><br>  
         <button type="submit">Ganhador</button><br><br>
